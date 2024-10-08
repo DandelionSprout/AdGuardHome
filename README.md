@@ -163,14 +163,16 @@ AdGuard Home provides a lot of features out-of-the-box with no need to install a
 | Built-in DHCP server                                                    | ✅                | ✅                                                        |
 | HTTPS for the Admin interface                                           | ✅                | Kind of, but you'll need to manually configure lighttpd   |
 | Encrypted DNS upstream servers (DNS-over-HTTPS, DNS-over-TLS, DNSCrypt) | ✅                | ❌ (requires additional software)                         |
-| Cross-platform                                                          | ✅                | ❌ (not natively, only via Docker)                        |
-| Running as a DNS-over-HTTPS or DNS-over-TLS server                      | ✅                | ❌ (requires additional software)                         |
+| Cross-platform, incl. Windows and macOS                                 | ✅                | ❌ (not natively, only via Docker)                        |
+| Running as a DNS-over-HTTPS, DNS-over-TLS, or DNS-over-QUIC server      | ✅                | ❌ (requires additional software)                         |
 | Blocking phishing and malware domains                                   | ✅                | ❌ (requires non-default blocklists)                      |
 | Parental control (blocking adult domains)                               | ✅                | ❌ (requires non-default blocklists)                      |
 | Force Safe search on search engines                                     | ✅                | ❌                                                        |
 | Per-client (device) configuration                                       | ✅                | ✅                                                        |
 | Access settings (choose who can use AGH DNS)                            | ✅                | ❌                                                        |
 | Running [without root privileges][wiki-noroot]                          | ✅                | ❌                                                        |
+| Blocking ads and trackers with IP address rules                         | ✅                | ❌                                                        |
+| Blocking ads and trackers by CNAME                                      | ✅                | ❌                                                        |
 
 [wiki-noroot]: https://adguard-dns.io/kb/adguard-home/getting-started/#running-without-superuser
 
